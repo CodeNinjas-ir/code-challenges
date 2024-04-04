@@ -49,17 +49,17 @@
 ```nilofar```
 
 
-## پاسح 
+## پاسخ 
 
-روش اول `merge sort`:
+* روش اول `merge sort`:
 
-[برای دیدن کد کلیلک کنید](./MergeSort.js)
+[برای دیدن کد کلیک کنید](./MergeSort.js)
 
 ![Merge sort](https://media.geeksforgeeks.org/wp-content/uploads/20230706153706/Merge-Sort-Algorithm-(1).png)
 
 
-روش دوم `Quick sort`:
+* روش دوم `Quick sort`:
 
-[برای دیدن کد کلیلک کنید](./QuickSort.js)
+[برای دیدن کد کلیک کنید](./QuickSort.js)
 
 ![Quick sort](https://favtutor.com/resources/images/uploads/mceu_46432632011643441346270.png)
