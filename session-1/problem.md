@@ -1,65 +1,72 @@
-## جستجو میان اسامی
+## Search in Names String
 
-فرض کنید لیست نامرتبی از اسامی (با حروف کوچک انگلیسی) در اختیار داریم. می‌خواهیم اسمی را پیدا کنیم که از نظر ترتیب حروف الفبا کل اسامی یکی مانده به آخری باشد.
+Assume that you have been given an unordered list of names in lowercase, and you want to find the name which is the penultimate in alphabetical order (a-z).
 
-برای مثال اگر لیست زیر را در نظر بگیریم:
-
-```js
-['nastaran','shayan','ahmad','nilofar']
-```
-
-ترتیب اسامی بر اساس حروف الفبا به این شکل است:
+For example:
 
 ```js
-['ahmad','nastaran','nilofar','shayan']
+['nastaran', 'shayan', 'ahmad', 'nilofar']
 ```
 
-در مثال بالا نیلوفر اسمی است که به دنبال آن هستیم.
+In order version:
 
-### محدودیت پاسخ
+```js
+['ahmad', 'nastaran', 'nilofar', 'shayan']
+```
 
-در نوشتن نباید از متد sort روی آرایه استفاده شود.
+The penultimate name is `nilofar`.
 
-### راهنما 
+### Solution Limitations
 
-برای مقایسه ترتیب الفبایی باید از localeCompare استفاده کنید.
+You must not use the `sort` method on the array.
+
+### Guide
+
+You have to use `string.localeCompare` for alphabetical comparison.
 
 ---
 
-### ورودی
+### Input
 
-ورودی برنامه شما باید یک آرایه باشد. برنامه باید n عضو آرایه که با کاراکتر فاصله (space) جدا شده‌اند را در یک خط بخواند.هر عضو یک رشته از کاراکترهای کوچک (lowercase) انگلیسی است.
+The input of the app must be an array. The app should read the items of the array from a string in a line, separated by spaces (" "), with each string containing only lowercase characters.
 
+### Output
 
-### خروجی
+The app must output the penultimate name in the array ordered alphabetically.
 
-برنامه شما باید در خروجی اسم یکی مانده به آخر از نظر حروف الفبایی را چاپ کند.
-
-برای چاپ باید از `console.log` استفاده کنید.
+The output should be written using `console.log`.
 
 ---
 
-### مثال ورودی
+### Input Sample
 
-``"nastaran shayan ahmad nilofar"``
+```
+"nastaran shayan ahmad nilofar"
+```
 
-### مثال خروجی
+### Output Sample
 
-خروجی که برنامه باید چاپ کند:
-```nilofar```
+The output should be:
 
+```
+nilofar
+```
 
-## پاسخ 
+## Solutions 
+<details>
+  <summary>Solution 1</summary>
+  <div>
+    <h3>Merge Sort</h3>
+    <p> <a href="./solution-1.js">Click here to view the code</a></p>
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230706153706/Merge-Sort-Algorithm-(1).png"/>
+  </div>
+</details>
 
-* روش اول `merge sort`:
-
-[برای دیدن کد کلیک کنید](./MergeSort.js)
-
-![Merge sort](https://media.geeksforgeeks.org/wp-content/uploads/20230706153706/Merge-Sort-Algorithm-(1).png)
-
-
-* روش دوم `Quick sort`:
-
-[برای دیدن کد کلیک کنید](./QuickSort.js)
-
-![Quick sort](https://favtutor.com/resources/images/uploads/mceu_46432632011643441346270.png)
+<details>
+  <summary>Solution 2</summary>
+  <div>
+    <h3>Quick Sort</h3>
+    <p><a href="./solution-2.js">Click here to view the code</a></p>
+    <img src="https://favtutor.com/resources/images/uploads/mceu_46432632011643441346270.png"/>
+  </div>
+</details>
