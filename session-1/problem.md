@@ -1,7 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
-
 ## جستجو میان اسامی
 
 فرض کنید لیست نامرتبی از اسامی (با حروف کوچک انگلیسی) در اختیار داریم. می‌خواهیم اسمی را پیدا کنیم که از نظر ترتیب حروف الفبا کل اسامی یکی مانده به آخری باشد.
@@ -51,3 +47,19 @@
 
 خروجی که برنامه باید چاپ کند:
 ```nilofar```
+
+
+## پاسح 
+
+روش اول `merge sort`:
+
+[برای دیدن کد کلیلک کنید](./MergeSort.js)
+
+![Merge sort](https://media.geeksforgeeks.org/wp-content/uploads/20230706153706/Merge-Sort-Algorithm-(1).png)
+
+
+روش دوم `Quick sort`:
+
+[برای دیدن کد کلیلک کنید](./QuickSort.js)
+
+![Quick sort](https://favtutor.com/resources/images/uploads/mceu_46432632011643441346270.png)
