@@ -1,3 +1,4 @@
+// Merge Sort
 function merge(rVal, lVal) {
   const result = [];
   let leftIndex = 0;
